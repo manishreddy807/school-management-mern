@@ -18,7 +18,7 @@ server.use(bodyParser.json());
 
 
 // Connect to mongoDB
-const password = encodeURIComponent("manish@123")
+const password = encodeURIComponent("")
 mongoose.connect(`mongodb+srv://manishReddy:${password}@cluster0.xnkhp.mongodb.net/?retryWrites=true&w=majority`, {
     useUnifiedtopology: true,
     useNewUrlParser: true
